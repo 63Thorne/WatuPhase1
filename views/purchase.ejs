@@ -1,0 +1,140 @@
+ 
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/purchase.css">
+     <script defer src="js/northlink.js"></script>
+ 
+     <title>Document</title>
+ </head>
+ <body>
+                     
+     <div class="background-image">
+         <img src="img/bg-desktop-dark.jpg">
+ 
+     </div>
+ 
+     <div class="title">
+         <h1>Thorne Notes. </h1>
+     </div>
+ 
+     <div class="Course-information">
+ 
+         <div class="Course-Heading"> 
+         
+ 
+             <h2>Purchase Confirmation</h2>
+ 
+         </div>
+         <a href="/dashboard">Dashboard</a>
+ 
+ 
+     </div>
+    
+ 
+     <div class="Course">
+ 
+        
+ 
+         <div class="Row1">
+
+          
+ 
+ Before you make the payment, please do fill in the form below so that we can confirm your payment. 
+ 
+ <h2>R20 (once off payment)</h2>
+ <form action="/purchase" method="POST">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input
+      type="name"
+      id="Fullname"
+      name="Fullname"
+      class="form-control"
+      placeholder="Enter Full Name"
+      value="<%= typeof name != 'undefined' ? name : '' %>"
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="Surname">Surname</label>
+    <input
+      type="name"
+      id="Surname"
+      name="Surname"
+      class="form-control"
+      placeholder="Enter Surname"
+      value="<%= typeof Surname != 'undefined' ? Surname : '' %>"
+    >
+  </div>
+
+  <div class="form-group">
+    <label for="EmailAddress">Email Address</label>
+    <input
+      type="email"
+      id="EmailAddress"
+      name="EmailAddress"
+      class="form-control"
+      placeholder="Enter Email"
+      value="<%= typeof EmailAddress != 'undefined' ? EmailAddress : '' %>"
+    >
+  </div>
+ 
+  <div class="form-group">
+    <label for="Cellnumber">Cellnumber</label>
+    <input
+      type="tel"
+      id="Cellnumber"
+      name="Cellnumber"
+      class="form-control"
+      placeholder="Cellnumber"
+      value="<%= typeof Cellnumber != 'undefined' ? Cellnumber : '' %>"
+    >
+  </div>
+  <button type="submit" class="btn btn-primary btn-block">
+    Submit
+  </button>
+</form>
+ 
+             
+ 
+ 
+         </div>
+ 
+ 
+     </div>
+ 
+ </div>
+ 
+ 
+ 
+ 
+   
+ 
+   
+ 
+ </body>
+ </html>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

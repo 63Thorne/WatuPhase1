@@ -1,0 +1,17 @@
+
+.overlayBlock{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    color: lightgoldenrodyellow;
+    font-size: 3em;
+    font-family: fantasy;
+    display: flex;
+ }
+ 

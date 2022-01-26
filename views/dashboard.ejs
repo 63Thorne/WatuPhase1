@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script  defer  src="https://unpkg.com/swup@latest/dist/swup.min.js"></script> 
+    <script defer src="js/dash.js"></script>
+    <title>Dashboard</title>
+</head>
+<body>
+
+    
+    <div class="intro">
+        <h1 class="logo-header">
+            <span class="logo">tho</span><span class="logo">rne.</span>
+        </h1>
+        
+    </div>
+    
+                
+                
+                    <div class="background-image">
+                        <img src="img/bg-desktop-dark.jpg">
+                
+                    </div>
+                
+                <div class="H1-Heading">
+                    
+                    <div class="container">
+                        <div class= "header">
+                   
+                            <div class="title">
+                         thorne.
+                            </div>
+                        
+                        </div>
+                                  
+                    </div>
+
+                </div>
+
+                <div class="landing-page">
+
+                    <div>
+                    
+                        <p class="lead mb-3">Welcome <%= name %></p>
+                        <a href="/logout" class="btn btn-secondary">Logout</a>
+    
+                    </div>     
+
+
+
+
+                    
+                    
+                    
+
+                    <div class="menu">
+                        <nav>
+                            <ul>
+                                <a href="/dashboard">Home</a>
+                                
+                               
+                    
+                            </ul>
+                    
+                        </nav>
+    
+    
+                    </div>
+
+
+
+
+                    <div class="3rd-Div">
+
+                        <div class="sign-up-div">
+    
+                            <div class="sign-up">
+                            
+                                <button class="dropdown__button"> Select your University/College  <i class="fa fa-caret-right"></i> </button>  
+                                <div class="dropdown__menu hide">
+    
+                                    <a href="/northlink">Northlink</a>
+
+    
+                                   
+                        
+                                </div>      
+                            </div>
+    
+                            
+                        </div>
+                    </div>
+
+            
+                <main id="swup" class="transition-fade">
+                    
+                    
+                        </main>
+
+
+
+                        <div class="overlay">
+                            <div class="close-btn" onclick="toggleForm()">&times;</div>
+                            
+                            
+                    
+                            <div class="Form">
+                                <div class="tab-header">
+                                    <div class="active">Sign Up</div>
+                                    <div>Sign In</div>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-body active">
+                                        <div class="form-element">
+                                            <input type="text" placeholder="Email">
+                        
+                                        </div>
+                        
+                                        <div class="form-element">
+                                            <input type="text" placeholder="Username">
+                        
+                                        </div>
+                        
+                                        <div class="form-element">
+                                            <input type="password" placeholder="Password">
+                        
+                                        </div>
+                                        <div class="form-element">
+                                            <button>Sign Up</button>
+                        
+                                        </div>
+                        
+                                    </div>
+                        
+                                    <div class="tab-body ">
+                                        <div class="form-element">
+                                            <input type="text" placeholder="Email/Username">
+                        
+                                        </div>
+                        
+                                        <div class="form-element">
+                                            <input type="password" placeholder="Password">
+                        
+                                        </div>
+                        
+                                        <div class="form-element">
+                                            <input type="checkbox" id="remember_me">
+                                            <label for="remember_me">Remember_me</label>
+                        
+                                        </div>
+                        
+                                        <div class="form-element">
+                                            <button>Sign In</button>
+                        
+                                        </div>
+                        
+                                    </div>
+                        
+                                </div>
+                        
+                        
+                            </div>
+                    
+                    
+                        </div>
+                    
+                        <div class="center">
+                            <button onclick="toggleForm()">SignUp/Login</button>
+                    
+                        </div>
+    
+ 
+                    
+                    
+
+                        
+         
+                        
+                        
+
+ 
+                
+    
+</body>
+</html>

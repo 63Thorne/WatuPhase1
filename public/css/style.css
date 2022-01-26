@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    color: aqua;
+}
+
+.intro{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    transition: 1s;
+    
+}
+
+.logo-header{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.logo{
+    position: relative;
+    display:inline-block;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.logo.active {
+    bottom:0;
+    opacity:1;
+    transition: ease-in-out 0.5s;
+}
+
+.logo.fade{
+    bottom:150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+
+.menu  {
+position:absolute;
+top: 120px;
+width:100px ;
+background-color: grey;
+
+
+}
+
+li{
+    padding: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+body {
+
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: hsl(235,24%,19%);
+    font-size:18px;
+    
+    justify-content: center;
+    
+}
+
+
+.background-image {
+
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    height: 150px; 
+    z-index: -1; 
+}
+
+.background-image img{
+     width:100%;
+    height:150px
+}
+
+
+
+.container {
+    height: 100px;
+    width: 100%;
+    margin: 0 30px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  
+  
+  }
+  
+  .header {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  }
+  
+  .title {
+  
+      color: white;
+      font-size: 50px;
+      font-weight: bold;
+      letter-spacing: 2px;
+  }
+
+  
+  .sign-up-div{
+position: relative;
+left: 10px;
+width: 450px;
+height: 100px;
+background-color: #d3b99f;
+border: 2px solid #EEE;
+border-radius: 5px;
+
+
+
+  }
+
+  .sign-up{
+    color: black;
+
+      background-color:#d3b99f;
+      justify-items: center;
+      width: 250px;
+  }
+
+  .dropdown__button{
+    font-family: 'Josefin Sans', sans-serif;
+
+      background-color: grey;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+  }
+
+ .dropdown__menu{
+    font-family: 'Josefin Sans', sans-serif;
+
+     border: solid 1px grey;
+     width: 190px;
+     
+ } 
+
+  .dropdown__menu a {
+    font-family: 'Josefin Sans', sans-serif;
+
+      background-color: grey;
+      display: block;
+      padding: 4px 8px;
+     font-size: 12px;
+     text-decoration: none;
+     color: black;
+  }
+
+  .dropdown__menu a:hover {
+      background: #666;
+  }
+
+
+  .hide{
+      display:none;
+  }
+
+
+  .Form{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:300px;
+    background: #f5f5f5;
+    
+    
+
+}
+
+.Form .tab-header {
+    height:50px;
+    line-height:50px;
+   
+}
+
+.Form .tab-header > div {
+    width:50%;
+    float: left;
+    text-align:center ;
+    background: #ddd;
+    color:#555;
+    cursor:pointer;
+}
+
+.Form .tab-header > div.active {
+    background: #f5f5f5;
+    color:#111;
+
+}
+
+.Form .tab-content {
+    padding: 20px;
+}
+
+.form-element input {
+    width:100%;
+    padding: 10px;
+    
+    
+
+}
+
+.form-element input[type="checkbox"] {
+    width:30px;
+    margin: 8px 0px;
+    margin-left: -5px;
+
+}
+
+.form-element label{
+    color:#111;
+    
+}
+
+.form-element button {
+    margin-top: 5px;
+    width: 100%;
+    padding:10px;
+    border:none;
+    outline:none;
+    background: #00acee;
+    color: #f5f5f5;
+    font-size:16px;
+    text-transform:uppercase;
+    cursor:pointer;
+    border-radius: 5px;
+
+    
+}
+
+.Form .tab-content > div.active {
+    display:block;
+
+}
+
+.Form .tab-content > div{
+    display: none;
+}
+
+.overlay{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    opacity:0;
+    transition: top 500ms ease-in-out,
+                opacity 500ms ease-in-out,
+                height 0ms ease-in-out 500ms;
+
+}
+
+.overlay .close-btn {
+    position:absolute;
+    top:20px;
+    right: 40px;
+    color:#fff;
+    font-size:40px;  
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.center {
+    position:absolute;
+    top: 132px;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+
+.center button{
+    border-radius: 10px;
+    background:#fff;
+    color: #222;
+    width: 150px;
+    height: 40px;
+    font-weight:600;
+    box-shadow:3px 3px 2px 1px rbga(0,0,0,0.1);
+    cursor:pointer;
+}
+
+body.activeForm .overlay{
+    z-index:2;
+    opacity:1;
+    transition: top 500ms ease-in-out,
+                opacity 500ms ease-in-out,
+                height 0ms ease-in-out 0ms;
+}
+
+/* Flip Card*/
+
+.background-image {
+
+    position: absolute;
+    width: 100%;
+    top:0;
+    left:0;
+    right:0;
+    height: 150px; 
+    z-index: -1; 
+}
+
+.background-image-click {
+
+    position: absolute;
+    width: 100%;  
+    left:0;
+    bottom:0;
+    height: 150px;
+    z-index: 1; 
+}
+
+.background-image-click img{
+    width:100%;
+   height:100%;
+   border-radius: 10px;
+
+   
+}
+
+
+
+.background-image img{
+     width:100%;
+    height:150px
+}
+
+.card{
+
+    position: relative;
+    text-align: center;
+    justify-items: center; 
+    width: 190px;
+    height: 275px;
+    top:5%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    padding-left: 20px;
+    
+ 
+}
+
+
+
+
+/* toggle flip */
+.card.is-flipped{
+    transform: rotateY(180deg);
+}
+
+
+
+
+.note-card{
+    position:relative;
+    left: 5;
+    width: 218px;
+    height: 245px;
+    
+
+}
+
+.note-card h3{
+    color:whitesmoke;
+    font: weight 20px;;
+}
+
+h4{
+    margin-left: 10px;
+    
+}
+
+.card-face {
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility: hidden;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+}
+
+.card_face--front{
+    background-image: linear-gradient(gray,brown,white);
+    align-items: center;
+    justify-items: center;
+    
+
+
+}
+
+
+
+.card_face--back{
+    background-color: orange;
+    transform:rotateY(180deg);
+    text-align: left;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

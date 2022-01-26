@@ -1,0 +1,38 @@
+
+body{
+   font-family: sans-serif;
+   background-color: lavender;
+}
+section{
+    border: 10px solid grey;
+}
+
+
+.Bank{
+    border: 10px solid grey;
+    max-width: 250px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background: #00acee;
+    
+}
+
+.info{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+button{
+    height:25px;
+}
+
+h3{
+    text-decoration: underline;
+}
+
