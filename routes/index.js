@@ -10,28 +10,15 @@ const { authUser } = require('../config/basicAuth')
 
 
 // Welcome Page
-router.get('/', (req, res) => res.render('welcome'));
+router.get('/', (req, res) => res.render('northlink'));
 
 // Welcome Page
 router.get('/NewPage', (req, res) => res.render('NewPage'));
 
-// Login Page
-router.get('/login', (req, res) => res.render('login'));
 
 
 // Welcome Page
 router.get('/PaymentDetails', (req, res) => res.render('PaymentDetails'));
-
-//Dashboard
-router.get('/dashboard', ensureAuthenticated, (req, res) => 
-res.render('dashboard', {
-    name: req.user.name
-}));
-
-//  Northlink
-router.get('/northlink', (req, res) => 
-{res.render('northlink')
-});
 
 //  PR
 router.get('/PR', (req, res) => res.render('PR'));
@@ -45,17 +32,21 @@ router.get('/PMN5', (req, res) => res.render('PMN5'));
 //  PMN6
 router.get('/PMN6', (req, res) => res.render('PMN6'));
 
+//  RandomNotes
+router.get('/RandomNotes', (req, res) => res.render('RandomNotes'));
+
+
 //Paying User
 const Payer = require('../models/Payer')
 
 //Purchase info
 router.post('/purchase', (req, res) => {
-const { Fullname,Surname, EmailAddress, Cellnumber} = req.body;
+const { Fullname,Surname, EmailAddress, Cellnumber, Institution} = req.body;
 let errors =  [];
  
 // Check required fields
 
-if(!Fullname || !Surname || !EmailAddress  || !Cellnumber) {
+if(!Fullname || !Surname || !EmailAddress  || !Cellnumber || !Institution) {
     errors.push({msg: 'Please fill in all fields'});
 }
 
@@ -68,7 +59,8 @@ res.render('purchase', {
     Fullname,
     Surname,
     EmailAddress,
-    Cellnumber
+    Cellnumber,
+    Institution,
 }); 
 
 } else {
@@ -84,7 +76,8 @@ res.render('purchase', {
               Fullname,
               Surname,
               EmailAddress,
-              Cellnumber
+              Cellnumber,
+              Institution,
           });
 
       } else {
@@ -92,7 +85,8 @@ res.render('purchase', {
               Fullname,
               Surname,
               EmailAddress,
-              Cellnumber
+              Cellnumber,
+              Institution,
           });
 // Hashed Password
 bcrypt.genSalt(10, (err, salt)=> bcrypt.hash(newPayer.Cellnumber, salt, (err,hash) => {

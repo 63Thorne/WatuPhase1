@@ -33,7 +33,7 @@
              <h2>Purchase Confirmation</h2>
  
          </div>
-         <a href="/dashboard">Dashboard</a>
+         
  
  
      </div>
@@ -49,7 +49,7 @@
  
  Before you make the payment, please do fill in the form below so that we can confirm your payment. 
  
- <h2>R20 (once off payment)</h2>
+ <h2>R50 (once off payment)</h2>
  <form action="/purchase" method="POST">
   <div class="form-group">
     <label for="name">Name</label>
@@ -98,6 +98,21 @@
       value="<%= typeof Cellnumber != 'undefined' ? Cellnumber : '' %>"
     >
   </div>
+
+  <div class="form-group">
+    <label for="Institution">Name of College/University</label>
+    <input
+      type="name"
+      id="Institution"
+      name="Institution"
+      class="form-control"
+      placeholder="Name of College/University"
+      value="<%= typeof Institution != 'undefined' ? Institution : '' %>"
+    >
+  </div>
+
+
+
   <button type="submit" class="btn btn-primary btn-block">
     Submit
   </button>

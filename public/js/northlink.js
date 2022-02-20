@@ -30,18 +30,3 @@ dropdownMenu2.classList.toggle("hide2");
 
 
 
-function handleOnLoad(){
-    window.location="http://localhost:5000/PR"}
-
-const PrLink = document.getElementById('PR-notes');
-const cb = document.getElementById('check')
-
-PrLink.addEventListener('click', function (e) {
-    if (!cb.checked) {
-        e.preventDefault();
-    }
-
-   
-   
-});
-

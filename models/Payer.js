@@ -19,7 +19,15 @@ const PayerSchema = new mongoose.Schema({
     Cellnumber: {
         type: String,
         required: true
+
     },
+
+    Institution: {
+        type: String,
+        required: true
+
+    },
+
     date: {
         type: Date,
         default: Date.now

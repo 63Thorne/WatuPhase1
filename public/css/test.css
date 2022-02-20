@@ -72,7 +72,7 @@ align-items: center;
 
   
   .Programmes{
-    margin-top: 30px;
+    margin-top: 7px;
     justify-items: center;
     min-height: 250px;
     width: 250px;
@@ -90,7 +90,7 @@ align-items: center;
   padding: 10px;
 }
 
-.dropdown__button, .dropdown__button2{
+.dropdown__button, .dropdown__button2,  .dropdown__button3 {
   font-family: 'Josefin Sans', sans-serif;
   height: 25px;
   width: 240px;
@@ -105,13 +105,13 @@ align-items: center;
 
 }
 
-.dropdown__menu, .dropdown__menu2{
+.dropdown__menu, .dropdown__menu2, .dropdown__menu3{
    border: solid 1px grey;
-   width: 220px;
+   width: 240px;
    
 } 
 
-.dropdown__menu a, .dropdown__menu2 a{
+.dropdown__menu a, .dropdown__menu2 a, .dropdown__menu3 a{
     font-weight: bolder;
     display: block;
     padding: 4px 8px;
@@ -131,12 +131,20 @@ align-items: center;
   background: #666;
 }
 
+.dropdown__menu3 a:hover {
+  background: #666;
+}
+
 
 .hide{
     display:none;
 }
 
 .hide2{
+  display:none;
+}
+
+.hide3{
   display:none;
 }
 
@@ -162,6 +170,7 @@ margin-top: 23px;
 
 .Course{
   position: relative;
+  top: -20px;
   left: 10px;
   border-radius: 3px;
   border: 2px solid #EEE;
