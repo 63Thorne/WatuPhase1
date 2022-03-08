@@ -11,9 +11,9 @@ const { authUser } = require('../config/basicAuth')
 
 // Welcome Page
 router.get('/', (req, res) => res.render('northlink'));
-
-// Welcome Page
-router.get('/NewPage', (req, res) => res.render('NewPage'));
+  
+// EBMN5
+router.get('/EBMN5', (req, res) => res.render('EBMN5'));
 
 
 
