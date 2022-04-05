@@ -90,7 +90,7 @@ align-items: center;
   padding: 10px;
 }
 
-.dropdown__button, .dropdown__button2,  .dropdown__button3 {
+.dropdown__button, .dropdown__button2,  .dropdown__button3, .dropdown__button4 , .dropdown__button5,  .dropdown__button6{
   font-family: 'Josefin Sans', sans-serif;
   height: 25px;
   width: 240px;
@@ -105,13 +105,14 @@ align-items: center;
 
 }
 
-.dropdown__menu, .dropdown__menu2, .dropdown__menu3{
+.dropdown__menu, .dropdown__menu2, .dropdown__menu3, .dropdown__menu4,  .dropdown__menu5,   .dropdown__menu6 {
    border: solid 1px grey;
    width: 240px;
    
 } 
 
-.dropdown__menu a, .dropdown__menu2 a, .dropdown__menu3 a{
+.dropdown__menu a, .dropdown__menu2 a, .dropdown__menu3 a,  .dropdown__menu4 a,   .dropdown__menu5 a,   .dropdown__menu6 a,   .dropdown__menu7 a,
+.dropdown__menu8 a{
     font-weight: bolder;
     display: block;
     padding: 4px 8px;
@@ -135,18 +136,35 @@ align-items: center;
   background: #666;
 }
 
+.dropdown__menu4 a:hover {
+  background: #666;
+}
 
-.hide{
+.dropdown__menu5 a:hover {
+  background: #666;
+}
+
+.dropdown__menu6 a:hover {
+  background: #666;
+}
+
+.dropdown__menu7 a:hover {
+  background: #666;
+}
+
+.dropdown__menu8 a:hover {
+  background: #666;
+}
+
+.dropdown__menu9 a:hover {
+  background: #666;
+}
+
+
+.hide, .hide2, .hide3, .hide4, .hide5, .hide6, .hide7, .hide8, .hide9 {
     display:none;
 }
 
-.hide2{
-  display:none;
-}
-
-.hide3{
-  display:none;
-}
 
 .Course-information{
 

@@ -21,6 +21,9 @@ router.get('/EBMN5', (req, res) => res.render('EBMN5'));
 router.get('/PaymentDetails', (req, res) => res.render('PaymentDetails'));
 
 //  PR
+router.get('/PM', (req, res) => res.render('PM'));
+
+//  PR
 router.get('/PR', (req, res) => res.render('PR'));
 
 //  PMN4
