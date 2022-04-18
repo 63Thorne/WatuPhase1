@@ -20,6 +20,9 @@ router.get('/EBMN5', (req, res) => res.render('EBMN5'));
 // Welcome Page
 router.get('/PaymentDetails', (req, res) => res.render('PaymentDetails'));
 
+//  Submit Notes
+router.get('/SubmitNotes', (req, res) => res.render('sm'));
+
 //  PR
 router.get('/PM', (req, res) => res.render('PM'));
 
