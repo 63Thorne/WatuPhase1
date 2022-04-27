@@ -27,6 +27,9 @@ router.get('/SubmitNotes', (req, res) => res.render('sm'));
 router.get('/PM', (req, res) => res.render('PM'));
 
 //  PR
+router.get('/PM6', (req, res) => res.render('PM6'));
+
+//  PR
 router.get('/PR', (req, res) => res.render('PR'));
 
 //  PMN4
