@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <script  defer  src="https://unpkg.com/swup@latest/dist/swup.min.js"></script> 
+    <script defer src="js/flipcard.js"></script>
+    <script defer src="js/northlink.js"></script>
+    <link rel="stylesheet" href="css/extra.css">
+    <link rel="stylesheet" href="css/blocked.css">
+
+    
+    <link rel="stylesheet" href="css/comp.css">
+    <title>Home</title>
+</head>
+<body>
+
+
+
+    
+   <nav>
+       <ul>
+           <li><a href="#">thorne notes.
+               <br>Helps You Memorize Summurised Work
+           </a></li>
+       </ul>
+   </nav>
+    <div class="container">
+
+    
+
+
+    </div>
+
+
+    <div class="Module">
+
+        <div class="Module header">
+
+            <h2>Governance</h2>
+        </div>
+
+
+        <div class="slider-wrap-collection">
+            
+            <h2>Module 1(a)</h2>
+
+            <div class="slider-wrap">
+                <div class="slider">
+                    <div class="slider-inner">
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+        
+                               
+                                <div class="note-card">
+                                    <h3 class="text">What is Governance?</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                
+                                </div>
+                               
+                                
+        
+        
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        <li>Governance is the manner in which a government is manage, organized and controlled.</li>
+                                        <li>Governance can further be defined as the connections and interaction between national, provincial and local authorities and the public they serve.</li>
+
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+        
+        
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">Functions of Governance.</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                </div>
+                            
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        <li>The maintenance of law and order.</li>
+                                        <li>The Defence of society against external enemies.</li>
+                                        <li>The advancement of what can be said to be the welfare of the group, community, society or state.</li>
+                                    
+                                         </h4>
+                                </div>
+                            </div>
+                     
+        
+                        </div>
+        
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">What does the legislature consist of?</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                
+                                </div>
+                                
+                                
+        
+        
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        
+                                            <li>The National Assembly.</li>
+                                        
+                                            <li>The National Council of Provinces (NCOP).</li>
+        
+                                    </h4>
+                                </div>
+                                
+                               
+        
+        
+                            </div>
+                     
+        
+                        </div>
+        
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">Executive council.</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                
+                                </div>
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        
+                                            <li>Its the government of the day and which performs the governing functions. It is made up of the executive institutions.                                            </li>
+                                             
+                                        
+                                    </h4>
+                                </div>        
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">The modern sources of democratic government.</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                
+                                </div>
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        <li>The concept of rule by the people.</li>
+                                        <li>A republican tradition derived from Rome and the Italian city-states of the Middle Ages and Renaissance.</li>
+                                        <li>The idea and institutions of representative government.</li>
+                                        <li>The logic of political equality.</li>
+       
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">From participatory democracy to representative democracy.</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAflBMVEX///8AAADLy8tnZ2czMzObm5uXl5cvLy8EBAT5+fn8/Pz19fUfHx8KCgrq6uo4ODi3t7fd3d0RERHX19cWFhbHx8d9fX2lpaWPj488PDxeXl5zc3NNTU0iIiJsbGwnJyeurq5OTk5CQkKCgoK5ubnm5uaQkJChoaFgYGBWVlaYc963AAAH5klEQVR4nO2d2ZaiMBCGXVBZBEUBUVxQ2rZ9/xectrIQwiotJMzJfzHHIA71kVRVNujRSElJSUlJSUlJSUlJSUlJ6b+X4c/Pt4Vnj8e2t7id574h2qI2csObPuak30JXtF3vyZppPATRamaJtq6xnGBThvHSJnBEW9hIVmJXYQBKMgBvWS9Tg+1b8PBdxxxZ920cHphvTl+i7ayR9UNt9aJclHLne/r1VGpX2V6Inbe1WXiGS/3nsu3ZuDe0Jt5xnJSf5CQYxV73Z9l7euDEcaqx8P5E5+mzfux6V3NcHVF9SFp76NTvHsx6WzscWuMmJ9+x10tYJ1+oXZ24Poi7DoPzNEp2k2w9mSi86dL5iYs8eHFnjpnxIZNUvjMZPUJHJYtdBupbLRhTncDjM7r+ZKMZIrnIlU+QUcu0PoySjsqRaXoHlBkFmFuqic41E/9SiPE6KaQnGcjjJeqtmKhh7eiBkA5F9P00+Z6H0TFtZ0fa/pBjneTpQT7AwB9SNM/UJ+LUAyYB8fwLbV4xlMORJDLAQo/e6APGON+582YYZUlJrq/iRpbxyQyse5Airg+tILBaEa4TYroLISHoydA6gWNrpISwxtPilr9G+eZG+sZA5skRgr/AtBiXtijsJmVnT5DXk0pw7ExtChW4xAIXzFU1xy8p1IlOGt70Vdp3bWMTGXBP57iEGtah6geoBontEyjJMEu0hhuMvRcFsJpuRwC2k+7iQpYIDEHqiguoQvzqXxgXtkoScP4uLWwouKNkXKGxVEhWHEzPYWbsi/Ig9hJoW3bxCL9PWWwb30KBNdqKcOdRY7tUAB/hwob/jRj5kKpxIclklF9tT2OqKD0Mo+ITLlzZYCFOYNMRF26c424zc6cpiaMz1Qi+f+7P4hJFrIk20/Z/ZSzGGaXjWvAl3FvesbdCnA6Mr7uvz5v0u3mWg2ZNjI+z+yT7lShBa4rRZ0h1q/S73NoCdWkI0zhtAr7Xn8Ulgi4JjkgQVp/0K4fnSN1nzTQnOM3u1egiacydhvtMx1c4GLOiLg2xDqdE4/VZ79XoIuVA0smESQ6EfuczjdCUAwQmEHCfZJdtWhUg4E24X2LJ0bTA2XFc/WIazKgS5ME4+10OZ2fDLzhFGn4rQCQMvwFjkskm7EoQaJAx+ixJQgQHJ/1diMV0raAcxAJiPMkCtyIaiRZYSzqNQcZJykHARS64cGQap0AZ7M2FqErzdzmIxrRH1I2XYFIejCLTINBrJwG4FASN2l3mrI34gRVqTsRJQjARp5UyEHPBunfm9yIFzcnG0w0WtBM8+VAGkrC0aHpPvIv83l+PtQQZiVJdCQhapCMVAvdBl2L2F5IbSWhohgSF4GIQEyrNJtnmwFKJFerkktGfr9NbXwICn8gY3YXTYwFmFwi6W3Q8FTYBoT1LWNxdShCzXkLRlK5X/dSDrMhU5CRtiDIIek5LYpz5rANJF3+hT7OUZu0NJXR26a0SZE85UNqRIfZiocW2mJZn0AcsAfmhFYAWgzVJPOQlB4VUZkbr9U9FNx79Cjo0uvjZUkZoR80pm9dqQCy0zC7LAiIWLDxltnDUgkyOr5alSePpSMYqT1LXtEb3SN/IsFaVkYPW0E/MwKIW5LdXULMmJEJbtFzLbDxrACKlMEm6EXaoIHRVZxmjcvkIMbpp+5+dHNsEiuSssMEryA0lID5ZNfEkSumcjDNrcTHIjHka4yBRUucUezUgceaA+BW3UjnTShCHeyJDwvBLNblVgATcERl2CpTLv5aCLPlDUkw7lAsiawHIPXcIj/XNyW4WSzDdWKgCkPwhmKO08B7h01zKMNYI5JVL/LTBaffa/7Z/NQXx2b3OJwmdpiGIk916LsdkXUYNQSLuiHyppRmIwT+0+FP/P/esZiA+f+RU/z/3rGYgD/4I3jvgJldNuyYyDIWbgfBbiMbj12+dAykdxIexP4Bsma7MUnjCbw9yz0RkT3SSbA9yzR4QvcLYGiS3P0rwrGprEH7QInpatTXIkT8iuNvSGiS3F3JVfzEpQRb8Ea3+YgpEgSgQBaJAFIgCUSAKRIEoEAUycBBrnUTBjptKGx4IeSBXP2RmoAYHwkwLbtiXGjUCWeRfBSMKxGWnBfX0LS8FIItz7lCBktzbEXsBMbk5j3SDSR6krXoB2fFXrXg0SWqQW+6y5BUcwwIxcq9epU9+DQvELbrw9H8BQRuxhgViFV/6aQwNJD/jjHS0hgbyXXLxvTUwECu3BYtcfT0sEPxUVYHKjssKMoo/Z7FYkO5JehtYdU3S3wixY5Iex+y7Tkn6nHzolKTXWZTcuGSoIKPcxquhgnRI0vcEXWckvc80zv4XkK5IBMz9dkMiYhK7ExIhs/FdkIjZ5tQBiaDnfj4fhUXtzvw4ibAnSj/dgxT3Ft0Pk8TCQD480hK5FfuTJJf6y3WoD45PBD8Im1/lbCvRDyvldoa3lPhHfA71RjZRxUvoe5Kxr7eyXhsJ3kTgnOrtrJX4ChnxL8VupaUEFTKqmKpvrFg0AtZf04k8j1eGf+KQ6a9D/SWdeDI8T0nVnsSW6t1b5C2U72sjum+S06xV7BL/SGheX7m/+1avo/iHdAt0z28iqpYtwx+JKdTjrUp5in4+t0JWWLa1gJf+lNA7WJnrZ4O+1yqU0jk4mX54WC2L/1ai7S2eQTwECiUlJSUlJSUlJSUlJSUlpbb6B2d7aOc8XmhbAAAAAElFTkSuQmCC">
+        
+                                
+                                </div>
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        
+                                            <li>The system of government that emerged was ‘representative government’.</li>
+                                        
+                                            <li>Citizens elect representatives to govern on their behalf.</li>
+        
+                                            <li>Periodic elections were instituted where the voters could endorse or reject the actions of the elected representative.</li>
+                    
+        
+                                    </h4>
+                                </div>
+                            
+                            </div>
+                     
+        
+                        </div>
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">Constitutionalism.</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                
+                                </div>
+                        
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        
+                                            <li>Constitutionalism is found in the modern democracy.</li>
+                                            <li>Ensures that power remains with the community to control its elected representatives.</li>  
+                                            <li>The constitution sets out the powers and duties of the authorities, and allocates certain powers to  particular government institutions.</li> 
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">The three main powers of government are as follows.</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                
+                                </div>
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+
+                                        <li>Executive.</li>
+                                        
+                                        <li>Judiciary.</li>
+    
+                                        <li>Legislature.</li>
+                                        
+
+                                    </h4>
+                                </div>
+                    
+                            </div>
+            
+                        </div>
+        
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">The functions of each of the three powers.</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                
+                                </div>
+                
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        
+                                            <li>The Legislative authority makes, amends and repeals laws.</li>
+                                        
+                                            <li>The executive authority carries out, implements and enforces the laws.</li>
+        
+                                            <li>The judicial authority considers any matter that is in dispute and determines how the law should be applied to resolve the dispute.</li>
+                                        
+                                    </h4>
+                                </div>
+        
+                            </div>
+
+                        </div>
+        
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">The main purpose of the separation of powers.</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                
+                                </div>
+                        
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        <li>To prevent one branch of government from exercising an ultimate power that would enable it to take over the functions of the other divisions.</li>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">The 1996 Constitution states that legislative authority is defined as follows.</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                
+                                </div>
+                        
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        <li>The National sphere of government is vested in Parliament.</li>
+                                        <li>The Provincial sphere of government is vested in the provincial legislature.</li>
+                                        <li>The local sphere of government is vested in the municipal councils.</li>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+        
+        
+                    </div>
+                </div>
+        
+            </div>
+        
+        </div>
+
+        <div class="slider-wrap-collection">
+            
+            <h2>Module 1(b)</h2>
+        
+
+            <div class="slider-wrap">
+                <div class="slider">
+                    <div class="slider-inner">
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+        
+                               
+                                <div class="note-card">
+                                    <h3 class="text">The local sphere of government is vested in the municipal councils.</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                
+                                </div>
+                                
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        <li>To interact and work together to achieve the goals of government.</li>
+                                        <li>This mission statement focus on what you want to be (character), what you want to do (contribution and achievement).</li>
+                                        <li>Intergovernmental relation can be vertical, horizontal or diagonal.</li>
+                                        
+
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+        
+        
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">Vertical intergovernmental relation:</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                
+                                </div>
+                            
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        <li>Occurs between levels of governments and their organs within a line of authority or a function.</li>
+                                        
+                                
+                                         </h4>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">Horizontal intergovernmental relations:</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAflBMVEX///8AAADLy8tnZ2czMzObm5uXl5cvLy8EBAT5+fn8/Pz19fUfHx8KCgrq6uo4ODi3t7fd3d0RERHX19cWFhbHx8d9fX2lpaWPj488PDxeXl5zc3NNTU0iIiJsbGwnJyeurq5OTk5CQkKCgoK5ubnm5uaQkJChoaFgYGBWVlaYc963AAAH5klEQVR4nO2d2ZaiMBCGXVBZBEUBUVxQ2rZ9/xectrIQwiotJMzJfzHHIA71kVRVNujRSElJSUlJSUlJSUlJSUlJ6b+X4c/Pt4Vnj8e2t7id574h2qI2csObPuak30JXtF3vyZppPATRamaJtq6xnGBThvHSJnBEW9hIVmJXYQBKMgBvWS9Tg+1b8PBdxxxZ920cHphvTl+i7ayR9UNt9aJclHLne/r1VGpX2V6Inbe1WXiGS/3nsu3ZuDe0Jt5xnJSf5CQYxV73Z9l7euDEcaqx8P5E5+mzfux6V3NcHVF9SFp76NTvHsx6WzscWuMmJ9+x10tYJ1+oXZ24Poi7DoPzNEp2k2w9mSi86dL5iYs8eHFnjpnxIZNUvjMZPUJHJYtdBupbLRhTncDjM7r+ZKMZIrnIlU+QUcu0PoySjsqRaXoHlBkFmFuqic41E/9SiPE6KaQnGcjjJeqtmKhh7eiBkA5F9P00+Z6H0TFtZ0fa/pBjneTpQT7AwB9SNM/UJ+LUAyYB8fwLbV4xlMORJDLAQo/e6APGON+582YYZUlJrq/iRpbxyQyse5Airg+tILBaEa4TYroLISHoydA6gWNrpISwxtPilr9G+eZG+sZA5skRgr/AtBiXtijsJmVnT5DXk0pw7ExtChW4xAIXzFU1xy8p1IlOGt70Vdp3bWMTGXBP57iEGtah6geoBontEyjJMEu0hhuMvRcFsJpuRwC2k+7iQpYIDEHqiguoQvzqXxgXtkoScP4uLWwouKNkXKGxVEhWHEzPYWbsi/Ig9hJoW3bxCL9PWWwb30KBNdqKcOdRY7tUAB/hwob/jRj5kKpxIclklF9tT2OqKD0Mo+ITLlzZYCFOYNMRF26c424zc6cpiaMz1Qi+f+7P4hJFrIk20/Z/ZSzGGaXjWvAl3FvesbdCnA6Mr7uvz5v0u3mWg2ZNjI+z+yT7lShBa4rRZ0h1q/S73NoCdWkI0zhtAr7Xn8Ulgi4JjkgQVp/0K4fnSN1nzTQnOM3u1egiacydhvtMx1c4GLOiLg2xDqdE4/VZ79XoIuVA0smESQ6EfuczjdCUAwQmEHCfZJdtWhUg4E24X2LJ0bTA2XFc/WIazKgS5ME4+10OZ2fDLzhFGn4rQCQMvwFjkskm7EoQaJAx+ixJQgQHJ/1diMV0raAcxAJiPMkCtyIaiRZYSzqNQcZJykHARS64cGQap0AZ7M2FqErzdzmIxrRH1I2XYFIejCLTINBrJwG4FASN2l3mrI34gRVqTsRJQjARp5UyEHPBunfm9yIFzcnG0w0WtBM8+VAGkrC0aHpPvIv83l+PtQQZiVJdCQhapCMVAvdBl2L2F5IbSWhohgSF4GIQEyrNJtnmwFKJFerkktGfr9NbXwICn8gY3YXTYwFmFwi6W3Q8FTYBoT1LWNxdShCzXkLRlK5X/dSDrMhU5CRtiDIIek5LYpz5rANJF3+hT7OUZu0NJXR26a0SZE85UNqRIfZiocW2mJZn0AcsAfmhFYAWgzVJPOQlB4VUZkbr9U9FNx79Cjo0uvjZUkZoR80pm9dqQCy0zC7LAiIWLDxltnDUgkyOr5alSePpSMYqT1LXtEb3SN/IsFaVkYPW0E/MwKIW5LdXULMmJEJbtFzLbDxrACKlMEm6EXaoIHRVZxmjcvkIMbpp+5+dHNsEiuSssMEryA0lID5ZNfEkSumcjDNrcTHIjHka4yBRUucUezUgceaA+BW3UjnTShCHeyJDwvBLNblVgATcERl2CpTLv5aCLPlDUkw7lAsiawHIPXcIj/XNyW4WSzDdWKgCkPwhmKO08B7h01zKMNYI5JVL/LTBaffa/7Z/NQXx2b3OJwmdpiGIk916LsdkXUYNQSLuiHyppRmIwT+0+FP/P/esZiA+f+RU/z/3rGYgD/4I3jvgJldNuyYyDIWbgfBbiMbj12+dAykdxIexP4Bsma7MUnjCbw9yz0RkT3SSbA9yzR4QvcLYGiS3P0rwrGprEH7QInpatTXIkT8iuNvSGiS3F3JVfzEpQRb8Ea3+YgpEgSgQBaJAFIgCUSAKRIEoEAUycBBrnUTBjptKGx4IeSBXP2RmoAYHwkwLbtiXGjUCWeRfBSMKxGWnBfX0LS8FIItz7lCBktzbEXsBMbk5j3SDSR6krXoB2fFXrXg0SWqQW+6y5BUcwwIxcq9epU9+DQvELbrw9H8BQRuxhgViFV/6aQwNJD/jjHS0hgbyXXLxvTUwECu3BYtcfT0sEPxUVYHKjssKMoo/Z7FYkO5JehtYdU3S3wixY5Iex+y7Tkn6nHzolKTXWZTcuGSoIKPcxquhgnRI0vcEXWckvc80zv4XkK5IBMz9dkMiYhK7ExIhs/FdkIjZ5tQBiaDnfj4fhUXtzvw4ibAnSj/dgxT3Ft0Pk8TCQD480hK5FfuTJJf6y3WoD45PBD8Im1/lbCvRDyvldoa3lPhHfA71RjZRxUvoe5Kxr7eyXhsJ3kTgnOrtrJX4ChnxL8VupaUEFTKqmKpvrFg0AtZf04k8j1eGf+KQ6a9D/SWdeDI8T0nVnsSW6t1b5C2U72sjum+S06xV7BL/SGheX7m/+1avo/iHdAt0z28iqpYtwx+JKdTjrUp5in4+t0JWWLa1gJf+lNA7WJnrZ4O+1yqU0jk4mX54WC2L/1ai7S2eQTwECiUlJSUlJSUlJSUlJSUlpbb6B2d7aOc8XmhbAAAAAElFTkSuQmCC">
+        
+                                
+                                </div>
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                       <li>Occurs between governments and their organs at the same level or in the same sphere.</li>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">Diagonal intergovernmental relations:</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                
+                                </div>
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        
+                                            <li>Occurs between governments at different levels across lines of authority or functions.</li>
+                                        
+     
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="card">
+        
+                            <div class="card-face card_face--front">
+                                <div class="note-card">
+                                    <h3 class="text">Diagonal intergovernmental relations:</h3>
+                                </div>
+                                <div class="background-image-click">
+                                    <img src="data:image/png;base64,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">
+        
+                                
+                                </div>
+                                
+                            </div>
+        
+                            <div class="card-face card_face--back">
+        
+                                <div class="note-card">
+                                    <h4 class="text">
+                                        
+                                            <li>Occurs between governments at different levels across lines of authority or functions.</li>
+                                               
+                                    </h4>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+
+
+            <div class="slider-wrap-collection">
+                <h2>Module 2</h2>
+                <div class="slider-wrap">
+                    <div class="slider">
+                        <div class="slider-inner">
+            
+                            <div class="card">
+                
+                                <div class="card-face card_face--front">
+                                    <div class="note-card">
+                                        <h3 class="text"> Loading....</h3>
+                                    </div>
+                                    <div class="background-image-click">
+                                        <img src="data:image/png;base64,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">
+            
+                                    </div>
+                                </div>
+            
+                                <div class="card-face card_face--back">
+            
+                                    <div class="note-card">
+                                        <h4 class="text">
+                                            Notes are being gradually uploaded.   
+            
+                                        </h4>
+                                    </div>
+                                </div>
+                         
+                            </div>
+            
+                            <div class="card">
+                
+                                <div class="card-face card_face--front">
+                                    <div class="note-card">
+                                        <h3 class="text">Loading....</h3>
+                                    </div>
+                                    <div class="background-image-click">
+                                        <img src="data:image/png;base64,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">
+            
+                                    </div>
+                                </div>
+            
+                                <div class="card-face card_face--back">
+            
+                                    <div class="note-card">
+                                        <h4 class="text">
+                                            Notes are being gradually uploaded.   
+            
+                                        </h4>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+            
+                            <div class="card">
+            
+                                <div class="card-face card_face--front">
+                                    <div class="note-card">
+                                        <h3 class="text">Loading.... </h3>
+                                    </div>
+                                    <div class="background-image-click">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAflBMVEX///8AAADLy8tnZ2czMzObm5uXl5cvLy8EBAT5+fn8/Pz19fUfHx8KCgrq6uo4ODi3t7fd3d0RERHX19cWFhbHx8d9fX2lpaWPj488PDxeXl5zc3NNTU0iIiJsbGwnJyeurq5OTk5CQkKCgoK5ubnm5uaQkJChoaFgYGBWVlaYc963AAAH5klEQVR4nO2d2ZaiMBCGXVBZBEUBUVxQ2rZ9/xectrIQwiotJMzJfzHHIA71kVRVNujRSElJSUlJSUlJSUlJSUlJ6b+X4c/Pt4Vnj8e2t7id574h2qI2csObPuak30JXtF3vyZppPATRamaJtq6xnGBThvHSJnBEW9hIVmJXYQBKMgBvWS9Tg+1b8PBdxxxZ920cHphvTl+i7ayR9UNt9aJclHLne/r1VGpX2V6Inbe1WXiGS/3nsu3ZuDe0Jt5xnJSf5CQYxV73Z9l7euDEcaqx8P5E5+mzfux6V3NcHVF9SFp76NTvHsx6WzscWuMmJ9+x10tYJ1+oXZ24Poi7DoPzNEp2k2w9mSi86dL5iYs8eHFnjpnxIZNUvjMZPUJHJYtdBupbLRhTncDjM7r+ZKMZIrnIlU+QUcu0PoySjsqRaXoHlBkFmFuqic41E/9SiPE6KaQnGcjjJeqtmKhh7eiBkA5F9P00+Z6H0TFtZ0fa/pBjneTpQT7AwB9SNM/UJ+LUAyYB8fwLbV4xlMORJDLAQo/e6APGON+582YYZUlJrq/iRpbxyQyse5Airg+tILBaEa4TYroLISHoydA6gWNrpISwxtPilr9G+eZG+sZA5skRgr/AtBiXtijsJmVnT5DXk0pw7ExtChW4xAIXzFU1xy8p1IlOGt70Vdp3bWMTGXBP57iEGtah6geoBontEyjJMEu0hhuMvRcFsJpuRwC2k+7iQpYIDEHqiguoQvzqXxgXtkoScP4uLWwouKNkXKGxVEhWHEzPYWbsi/Ig9hJoW3bxCL9PWWwb30KBNdqKcOdRY7tUAB/hwob/jRj5kKpxIclklF9tT2OqKD0Mo+ITLlzZYCFOYNMRF26c424zc6cpiaMz1Qi+f+7P4hJFrIk20/Z/ZSzGGaXjWvAl3FvesbdCnA6Mr7uvz5v0u3mWg2ZNjI+z+yT7lShBa4rRZ0h1q/S73NoCdWkI0zhtAr7Xn8Ulgi4JjkgQVp/0K4fnSN1nzTQnOM3u1egiacydhvtMx1c4GLOiLg2xDqdE4/VZ79XoIuVA0smESQ6EfuczjdCUAwQmEHCfZJdtWhUg4E24X2LJ0bTA2XFc/WIazKgS5ME4+10OZ2fDLzhFGn4rQCQMvwFjkskm7EoQaJAx+ixJQgQHJ/1diMV0raAcxAJiPMkCtyIaiRZYSzqNQcZJykHARS64cGQap0AZ7M2FqErzdzmIxrRH1I2XYFIejCLTINBrJwG4FASN2l3mrI34gRVqTsRJQjARp5UyEHPBunfm9yIFzcnG0w0WtBM8+VAGkrC0aHpPvIv83l+PtQQZiVJdCQhapCMVAvdBl2L2F5IbSWhohgSF4GIQEyrNJtnmwFKJFerkktGfr9NbXwICn8gY3YXTYwFmFwi6W3Q8FTYBoT1LWNxdShCzXkLRlK5X/dSDrMhU5CRtiDIIek5LYpz5rANJF3+hT7OUZu0NJXR26a0SZE85UNqRIfZiocW2mJZn0AcsAfmhFYAWgzVJPOQlB4VUZkbr9U9FNx79Cjo0uvjZUkZoR80pm9dqQCy0zC7LAiIWLDxltnDUgkyOr5alSePpSMYqT1LXtEb3SN/IsFaVkYPW0E/MwKIW5LdXULMmJEJbtFzLbDxrACKlMEm6EXaoIHRVZxmjcvkIMbpp+5+dHNsEiuSssMEryA0lID5ZNfEkSumcjDNrcTHIjHka4yBRUucUezUgceaA+BW3UjnTShCHeyJDwvBLNblVgATcERl2CpTLv5aCLPlDUkw7lAsiawHIPXcIj/XNyW4WSzDdWKgCkPwhmKO08B7h01zKMNYI5JVL/LTBaffa/7Z/NQXx2b3OJwmdpiGIk916LsdkXUYNQSLuiHyppRmIwT+0+FP/P/esZiA+f+RU/z/3rGYgD/4I3jvgJldNuyYyDIWbgfBbiMbj12+dAykdxIexP4Bsma7MUnjCbw9yz0RkT3SSbA9yzR4QvcLYGiS3P0rwrGprEH7QInpatTXIkT8iuNvSGiS3F3JVfzEpQRb8Ea3+YgpEgSgQBaJAFIgCUSAKRIEoEAUycBBrnUTBjptKGx4IeSBXP2RmoAYHwkwLbtiXGjUCWeRfBSMKxGWnBfX0LS8FIItz7lCBktzbEXsBMbk5j3SDSR6krXoB2fFXrXg0SWqQW+6y5BUcwwIxcq9epU9+DQvELbrw9H8BQRuxhgViFV/6aQwNJD/jjHS0hgbyXXLxvTUwECu3BYtcfT0sEPxUVYHKjssKMoo/Z7FYkO5JehtYdU3S3wixY5Iex+y7Tkn6nHzolKTXWZTcuGSoIKPcxquhgnRI0vcEXWckvc80zv4XkK5IBMz9dkMiYhK7ExIhs/FdkIjZ5tQBiaDnfj4fhUXtzvw4ibAnSj/dgxT3Ft0Pk8TCQD480hK5FfuTJJf6y3WoD45PBD8Im1/lbCvRDyvldoa3lPhHfA71RjZRxUvoe5Kxr7eyXhsJ3kTgnOrtrJX4ChnxL8VupaUEFTKqmKpvrFg0AtZf04k8j1eGf+KQ6a9D/SWdeDI8T0nVnsSW6t1b5C2U72sjum+S06xV7BL/SGheX7m/+1avo/iHdAt0z28iqpYtwx+JKdTjrUp5in4+t0JWWLa1gJf+lNA7WJnrZ4O+1yqU0jk4mX54WC2L/1ai7S2eQTwECiUlJSUlJSUlJSUlJSUlpbb6B2d7aOc8XmhbAAAAAElFTkSuQmCC">
+            
+                                    </div>
+                                </div>
+            
+                                <div class="card-face card_face--back">
+            
+                                    <div class="note-card">
+                                        <h4 class="text">
+                                            Notes are being gradually uploaded.   
+                                                                                     
+                                     
+            
+                                        </h4>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+            
+                            <div class="card">
+            
+                                <div class="card-face card_face--front">
+                                    <div class="note-card">
+                                        <h3 class="text">Loading.... </h3>
+                                    </div>
+                                    <div class="background-image-click">
+                                        <img src="data:image/png;base64,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">
+            
+                                    </div>
+                                </div>
+            
+                                <div class="card-face card_face--back">
+            
+                                    <div class="note-card">
+                                        <h4 class="text">
+                                            Notes are being gradually uploaded.   
+                                                                                     
+                                     
+                                        </h4>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+            
+                            <div class="card">
+            
+                                <div class="card-face card_face--front">
+                                    <div class="note-card">
+                                        <h3 class="text">Loading.... </h3>
+                                    </div>
+                                    <div class="background-image-click">
+                                        <img src="data:image/png;base64,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">
+            
+                                    </div>
+                                </div>
+            
+                                <div class="card-face card_face--back">
+            
+                                    <div class="note-card">
+                                        <h4 class="text">
+                                            Notes are being gradually uploaded.   
+                                                                                     
+            
+                                        </h4>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+            
+            
+                            <div class="card">
+            
+                                <div class="card-face card_face--front">
+                                    <div class="note-card">
+                                        <h3 class="text">Loading.... </h3>
+                                    </div>
+                                    <div class="background-image-click">
+                                        <img src="data:image/png;base64,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">
+            
+                                    </div>
+                                </div>
+            
+                                <div class="card-face card_face--back">
+            
+                                    <div class="note-card">
+                                        <h4 class="text">
+                                            Notes are being gradually uploaded.   
+                                                                                     
+                                     
+                                        </h4>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+            
+                            <div class="card">
+            
+                                <div class="card-face card_face--front">
+                                    <div class="note-card">
+                                        <h3 class="text">Loading.... </h3>
+                                    </div>
+                                    <div class="background-image-click">
+                                        <img src="data:image/png;base64,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">
+            
+                                    </div>
+                                </div>
+            
+                                <div class="card-face card_face--back">
+            
+                                    <div class="note-card">
+                                        <h4 class="text">
+                                            Notes are being gradually uploaded.      
+                                     
+                                        </h4>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+            
+                            <div class="card">
+            
+                                <div class="card-face card_face--front">
+                                    <div class="note-card">
+                                        <h3 class="text">Loading.... </h3>
+                                    </div>
+                                    <div class="background-image-click">
+                                        <img src="data:image/png;base64,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">
+            
+                                    </div>
+                                </div>
+            
+                                <div class="card-face card_face--back">
+            
+                                    <div class="note-card">
+                                        <h4 class="text">
+                                            Notes are being gradually uploaded.                                    
+            
+                                        </h4>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+            
+                            <div class="card">
+            
+                                <div class="card-face card_face--front">
+                                    <div class="note-card">
+                                        <h3 class="text">Loading.... </h3>
+                                    </div>
+                                    <div class="background-image-click">
+                                        <img src="data:image/png;base64,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">
+            
+                                    </div>
+                                </div>
+            
+                                <div class="card-face card_face--back">
+            
+                                    <div class="note-card">
+                                        <h4 class="text">
+                                                     Notes are being gradually uploaded.                                
+            
+                                        </h4>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+            
+            
+            
+                        </div>
+                    </div>
+            
+                </div>
+            
+            
+            
+            </div>
+
+            
+
+
+           
+              
+          
+      
+  
+  
+
+ 
+           
+                
+                
+
+        
+                
+    
+</body>
+</html>

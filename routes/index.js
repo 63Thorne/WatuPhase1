@@ -41,6 +41,11 @@ router.get('/PMN5', (req, res) => res.render('PMN5'));
 //  PMN6
 router.get('/PMN6', (req, res) => res.render('PMN6'));
 
+//  Governance
+router.get('/Gov', (req, res) => res.render('Gov'));
+
+
+
 //  RandomNotes
 router.get('/RandomNotes', (req, res) => res.render('RandomNotes'));
 
