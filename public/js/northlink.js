@@ -57,6 +57,66 @@ majordropdownMenu4.classList.toggle("hide2");
 });
 
 
+// Major Buttons
+
+
+
+const majordropdownBtn5= document.querySelector(".major__dropdown__button5");
+const majordropdownMenu5= document.querySelector(".major__dropdown__menu5");
+
+
+majordropdownBtn5.addEventListener('click', ()=> {
+
+majordropdownMenu5.classList.toggle("hide2");
+
+});
+
+
+// Major Buttons
+
+
+
+const majordropdownBtn6= document.querySelector(".major__dropdown__button6");
+const majordropdownMenu6= document.querySelector(".major__dropdown__menu6");
+
+
+majordropdownBtn6.addEventListener('click', ()=> {
+
+majordropdownMenu6.classList.toggle("hide2");
+
+});
+
+
+// Major Buttons
+
+
+
+const majordropdownBtn7= document.querySelector(".major__dropdown__button7");
+const majordropdownMenu7= document.querySelector(".major__dropdown__menu7");
+
+
+majordropdownBtn7.addEventListener('click', ()=> {
+
+majordropdownMenu7.classList.toggle("hide2");
+
+});
+
+
+// Major Buttons
+
+
+
+const majordropdownBtn8= document.querySelector(".major__dropdown__button8");
+const majordropdownMenu8= document.querySelector(".major__dropdown__menu8");
+
+
+majordropdownBtn8.addEventListener('click', ()=> {
+
+majordropdownMenu8.classList.toggle("hide2");
+
+});
+
+
 // Drop down click events
 
 

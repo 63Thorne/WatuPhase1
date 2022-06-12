@@ -41,6 +41,17 @@ align-items: center;
       padding-top: 6%;
   }
 
+  .founder {
+    font-family: 'Poppins', sans-serif;
+  
+      color: white;
+    
+      font-weight: bold;
+      letter-spacing: 2px;
+      padding-left: 10%;
+     
+  }
+
   .Courses{
    
     border-radius: 3px;
@@ -109,7 +120,7 @@ align-items: center;
 }
 
 
-.major__dropdown__button, .major__dropdown__button2,  .major__dropdown__button3,  .major__dropdown__button4{
+.major__dropdown__button, .major__dropdown__button2,  .major__dropdown__button3,  .major__dropdown__button4, .major__dropdown__button5,  .major__dropdown__button6,  .major__dropdown__button7 ,  .major__dropdown__button8  {
 
   font-family: 'Josefin Sans', sans-serif;
   height: 25px;
@@ -133,7 +144,7 @@ align-items: center;
    
 } 
 
-.major__dropdown__menu, .major__dropdown__menu2,  .major__dropdown__menu3 ,  .major__dropdown__menu4, .major__dropdown__menu5  {
+.major__dropdown__menu, .major__dropdown__menu2,  .major__dropdown__menu3 ,  .major__dropdown__menu4, .major__dropdown__menu5,  .major__dropdown__menu6,  .major__dropdown__menu7,  .major__dropdown__menu8  {
   
   border: solid 1px grey;
    width: 260px;
@@ -357,7 +368,6 @@ margin-top: 23px;
 }
 
 .Row1{
-  display: flex;
 }
 
 
