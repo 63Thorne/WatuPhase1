@@ -558,6 +558,21 @@ dropdownMenu31.classList.toggle("hide31");
 });
 
 
+// Drop down click events 
+
+
+
+const dropdownBtn32= document.querySelector(".dropdown__button32");
+const dropdownMenu32= document.querySelector(".dropdown__menu32");
+
+
+dropdownBtn32.addEventListener('click', ()=> {
+
+dropdownMenu32.classList.toggle("hide32"); 
+
+});
+
+
 
 
 
